@@ -5,7 +5,7 @@
 */
 
 (function($) {
-
+window.scrollTo(x,y)
 	skel
 		.breakpoints({
 			xlarge:	'(max-width: 1680px)',
