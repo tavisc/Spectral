@@ -6,7 +6,7 @@
 
 (function($) {
 
-window.scrollTo(x,y)
+window.scrollTo(0,0)
 
 	skel
 		.breakpoints({
