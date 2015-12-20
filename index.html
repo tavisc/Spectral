@@ -13,11 +13,18 @@
         <link rel="stylesheet" href="assets/css/fonts/style.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <script language="JavaScript" type="text/JavaScript">
+function scrollToTop() {
+  window.scrollTo(0,0);
+}
+</script>
+
 	</head>
     
     
 	<body class="landing">
-
+	<body onload="scrollToTop()">
+    
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
@@ -107,7 +114,7 @@
 					</section>
                     
 				<!-- Three -->                
-                <A NAME="emo">
+                <A NAME="demo">
 					<section id="three" class="wrapper style2 special">
 						<div class="inner">
 							<header class="major">
@@ -116,9 +123,9 @@
                                &nbsp;
                            	  <p>Use your mouse to move the target, and the drone will follow, automatically choosing the shortest valid path. It'll move around buildings, over parks, and through side streets till it reaches its goal. Use WASD and your mouse scroll to explore the neighborhood.</p>
                               <div class="box container 80%">
-                              	 <iframe src="https://c94f7e475c7659ee4ccbf6cdc7964f3cb25bec69.googledrive.com/host/0BzR73x5dCHdZenhLMVUtUEJLSlE/racegame.html" width="960" height="650" 			                                  scrolling="no">
+                              	 <iframe src="/assets/index.html" width="960" height="650" scrolling="no"></iframe>
 
-							   <iframe width="960" height="650" src="https://c94f7e475c7659ee4ccbf6cdc7964f3cb25bec69.googledrive.com/host/0BzR73x5dCHdZenhLMVUtUEJLSlE/racegame.html"                                frameborder="0" allowfullscreen wmode="transparent"></iframe>
+							   
 					
                             </div>
                             </div>
@@ -134,7 +141,7 @@
 					<div class="box container 75%">
 
 					<!-- Contact Form -->
-							<form method="post" action="mail.php">
+							<form method="POST" action="mail.php">
 								<div class="row 50%">
 									<div class="6u 12u(mobile)"><input type="text" name="name" placeholder="Name" /></div>
 									<div class="6u 12u(mobile)"><input type="email" name="email" placeholder="Email" /></div>
@@ -170,16 +177,17 @@
                     
                     
 						<ul class="copyright">
-							<li>&copy;Infinis</li><li><a href="mailto:name@email.com">Contact US</a></li><p>Design: <a href="http://html5up.net">HTML5 UP</a></p>
+							<li>&copy; Infinis</li><li><a href="mailto:name@email.com">Contact US</a></li><br><br>
+                            <p2>Design: <a href="http://html5up.net">HTML5 UP</a></p2>
 						</ul>
            
 			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.poptrox.min.js"></script>
+    		<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
